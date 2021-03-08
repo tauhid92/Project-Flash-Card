@@ -14,7 +14,7 @@ export default function EditDeck() {
 	const signal = abortController.signal;
 
 	useEffect(()=>{
-		setDeck({});
+		//setDeck({});
 		try{
 			const getDeck = async () => {
 				const res = await readDeck(deckId, signal);
